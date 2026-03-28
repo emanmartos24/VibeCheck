@@ -1,7 +1,7 @@
 # Large model files (> 100 MB)
 *.joblib
-emotion_transformer_model.joblib
-models/emotion_transformer_model.joblib
+!emotion_transformer_model.joblib
+models/*.joblib
 
 # Python
 __pycache__/
